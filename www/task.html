@@ -1,4 +1,4 @@
-<ons-navigator animation="slide" var="app.navi">
+<ons-navigator animation="slide" var="app.navi" ng-controller="saveController">
 
   <ons-page id="task">
     <!-- header -->
@@ -14,10 +14,11 @@
       </div>
       <div class="task">
         <span class="icon fa fa-trash-o"></span>
+        <h1 ng-model="save.message"></h1>
         <p class="task_name"></p>
       </div>
     </main>
-    
+
     <!-- onsen UI -->
     <ons-fab position="bottom right" modifier="light" ng-click="app.navi.pushPage('taskinfo.html');">
       <ons-icon icon="md-plus"></ons-icon>
