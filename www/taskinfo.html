@@ -1,0 +1,32 @@
+<ons-page id="taskinfo">
+    <ons-toolbar>
+      <div class="right">
+        <ons-toolbar-button>保存</ons-toolbar-button>
+      </div>
+    </ons-toolbar>
+    <ons-list>
+      <ons-list-header>
+        Task
+      </ons-list-header>
+      <ons-list-item>
+        <div class="left">
+          <div><input type="text" class="text-input" placeholder="taskname" value=""></div>
+        </div>
+        <div class="right">
+          期限
+        </div>
+      </ons-list-item>
+      <ons-list-item>
+        <div class="center">
+          <textarea class="textarea" rows="3" placeholder="備考
+          "></textarea>
+        </div>
+      </ons-list-item>
+      <ons-list-header>
+        Member
+      </ons-list-header>
+    </ons-list>
+    <ons-fab position="bottom right" modifier="light" ng-click="app.navi.popPage();">
+      <ons-icon icon="fa-times"></ons-icon>
+    </ons-fab>
+  </ons-page>
