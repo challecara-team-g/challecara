@@ -2,22 +2,28 @@
 
   <ons-page id="task">
     <!-- header -->
-    <head>
-      ONAKAMA
-    </head>
+    <div class="head">
+      <p class="name">ONAKAMA</p>
+    </div>
 
     <!-- main page -->
-    <main>
-      <div class="task">
-        <span class="icon fa fa-shopping-cart"></span>
-        <p class="task_name"></p>
-      </div>
-      <div class="task">
-        <span class="icon fa fa-trash-o"></span>
-        <p class="task_name"></p>
+    <div class="main">
+      <div class="tasks">
+        <div class="task">
+          <div class="task_circle">
+            <span class="icon fa fa-shopping-cart fa-fw"></span>
+            <p class="task_name">WASH</p>
+          </div>
+        </div>
+        <div class="task">
+          <div class="task_circle">
+            <span class="icon fa fa-trash-alt fa-fw"></span>
+            <p class="task_name">TRASH</p>
+          </div>
+        </div>
       </div>
     </main>
-    
+
     <!-- onsen UI -->
     <ons-fab position="bottom right" modifier="light" ng-click="app.navi.pushPage('taskinfo.html');">
       <ons-icon icon="md-plus"></ons-icon>
