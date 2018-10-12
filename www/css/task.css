@@ -43,10 +43,14 @@
   background-color: red;
 }
 
+.task .plus{
+  top: 27px;
+}
+
 .task_name{
-  height: 30px;
+  height: 25px;
   text-align: center;
+  font-size: 15px;
   color: white;
   background-color: blue;
-  vertical-align: text-bottom;
 }

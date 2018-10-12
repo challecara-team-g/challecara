@@ -9,20 +9,41 @@
     <!-- main page -->
     <div class="main">
       <div class="tasks">
+
+        <!-- 買い物 -->
         <div class="task">
           <div class="task_circle">
             <span class="icon fa fa-shopping-cart fa-fw"></span>
-            <p class="task_name">WASH</p>
+            <p class="task_name">SHOPPING</p>
           </div>
         </div>
+
+        <!-- ごみ捨て -->
         <div class="task">
           <div class="task_circle">
             <span class="icon fa fa-trash-alt fa-fw"></span>
             <p class="task_name">TRASH</p>
           </div>
         </div>
+
+        <!-- 皿洗い -->
+        <div class="task">
+          <div class="task_circle">
+            <span class="icon fas fa-coffee fa-fw"></span>
+            <p class="task_name">WASH</p>
+          </div>
+        </div>
+
+        <!-- 追加 -->
+        <div class="task">
+          <div class="task_circle">
+            <span class="icon fas fa-plus fa-fw plus"></span>
+            <p class="task_name">PLUS</p>
+          </div>
+        </div>
+
       </div>
-    </main>
+    </div>
 
     <!-- onsen UI -->
     <ons-fab position="bottom right" modifier="light" ng-click="app.navi.pushPage('taskinfo.html');">
