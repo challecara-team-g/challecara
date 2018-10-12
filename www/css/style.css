@@ -11,5 +11,9 @@ div.box{
   margin: 25px 25px;
   border-radius:50%;
   background-color: blue;
-
+}
+div.taskmember{
+  background-color: red;
+  width:100%;
+  height:30px;
 }
