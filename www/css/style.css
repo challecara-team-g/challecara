@@ -1,3 +1,15 @@
-*{
-  box-sizing: border-box;
+/**/
+ons-button[modifier="box"] {
+  width:100px;
+  height:100px;
+  margin: 25px 25px;
+  border-radius:50%;
+}
+div.box{
+  width:100px;
+  height:100px;
+  margin: 25px 25px;
+  border-radius:50%;
+  background-color: blue;
+
 }

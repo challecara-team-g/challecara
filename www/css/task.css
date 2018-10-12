@@ -26,6 +26,7 @@
   position: relative;
   float: left;
   padding: 20px 20px;
+  /* background-color: green; */
 }
 
 .task_circle{
@@ -40,17 +41,20 @@
   font-size: 50px;
   top: 20px;
   left: 18px;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .task .plus{
-  top: 27px;
+  top: 25px;
 }
 
 .task_name{
-  height: 25px;
+  position: absolute;
+  left: 25px;
+  right: 25px;
   text-align: center;
+  bottom: 20px;
   font-size: 15px;
   color: white;
-  background-color: blue;
+  /* background-color: blue; */
 }
