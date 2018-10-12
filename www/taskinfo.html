@@ -1,7 +1,7 @@
-<ons-page id="taskinfo">
+<ons-page id="taskinfo"　ng-controller="saveController as save">
     <ons-toolbar>
       <div class="right">
-        <ons-toolbar-button ng-click="saveController as save">保存</ons-toolbar-button>
+        <ons-toolbar-button ng-click="saveButton">保存</ons-toolbar-button>
       </div>
     </ons-toolbar>
     <ons-list>
@@ -10,7 +10,7 @@
       </ons-list-header>
       <ons-list-item>
         <div class="left">
-          <div><input type="text" class="text-input" placeholder="taskname" value=""></div>
+          <div><input type="text" class="text-input" placeholder="taskname" ng-model="save.message"></div>
         </div>
         <div class="right">
           期限
@@ -19,7 +19,7 @@
       <ons-list-item>
         <div class="center">
           <textarea class="textarea" rows="3" placeholder="備考
-          "></textarea>
+          " ng-model="save.message"></textarea>
         </div>
       </ons-list-item>
       <ons-list-header>

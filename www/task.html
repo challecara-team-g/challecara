@@ -1,23 +1,22 @@
 <ons-navigator animation="slide" var="app.navi">
 
   <ons-page id="task">
-    <!-- header -->
-    <head>
-      ONAKAMA
-    </head>
 
-    <!-- main page -->
-    <main>
-      <div class="task">
-        <span class="icon fa fa-shopping-cart"></span>
-        <p class="task_name"></p>
-      </div>
-      <div class="task">
-        <span class="icon fa fa-trash-o"></span>
-        <p class="task_name"></p>
-      </div>
-    </main>
-    
+
+
+    <p style="text-align: center">
+      ONAKAMA
+    </p>
+
+    <p align="center">
+      <ons-button modifier="box">
+        <i class="fas fa-shopping-cart fa-2x"></i>
+      </ons-button>
+      <ons-button modifier="box">box</ons-button>
+    </p>
+
+
+
     <!-- onsen UI -->
     <ons-fab position="bottom right" modifier="light" ng-click="app.navi.pushPage('taskinfo.html');">
       <ons-icon icon="md-plus"></ons-icon>
